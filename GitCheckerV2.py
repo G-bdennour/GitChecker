@@ -113,17 +113,3 @@ if __name__ == "__main__":
         print ("\r[~] Detected CTRL-C                                                                                                       ")
         sys.exit()
 
-#a = open('Amass-httprobe', 'r')
-
-#for line in a:
-#uris.append(line.strip())
-#
-#for line in uris:
-#if line[-1]=='/':
-#urls.append(line+'.git/')
-#else:
-#urls.append(line+'/.git/')
-#
-#for url in urls:
-#r = req.get(url)
-#print("[!] Connecting {} Retuened {}".format(url, r.status_code))
